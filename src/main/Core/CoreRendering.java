@@ -1,6 +1,6 @@
-package main.Window;
+package main.Core;
 
-import static main.Window.CoreUtils.*;
+import static main.Core.CoreUtils.*;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.opengl.GL11C.GL_QUADS;
 

@@ -1,6 +1,6 @@
-package main.Window;
+package main.Core;
 
-import static main.Window.Window.width;
+import static main.Core.Window.width;
 
 public class CoreUtils {
     public static float scaleXCord(float pixelX){

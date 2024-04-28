@@ -33,11 +33,8 @@ public class ShaderProgram {
         return shaderId;
     }
 
-    public void link() throws Exception {
+    public void link(){
         glLinkProgram(programId);
-        if (glGetProgrami(programId, GL_LINK_STATUS) == 0) {
-            throw new Exception("Error linking Shader code: " + glGetProgramInfoLog(programId, 1024));
-        }
 
         if (vertexShaderId != 0) {
             glDetachShader(programId, vertexShaderId);

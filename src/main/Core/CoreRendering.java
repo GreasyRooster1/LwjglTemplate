@@ -6,13 +6,24 @@ import static org.lwjgl.opengl.GL11C.GL_QUADS;
 
 public class CoreRendering {
 
+    public static void fill(float r,float g,float b){
+        glColor3f(r,g,b);
+    }
+    public static void fill(float r,float g,float b,float a){
+        glColor4f(r,g,b,a);
+    }
+    public static void fill(float gray){
+        glColor3f(gray,gray,gray);
+    }
+    public static void fill(float gray,float a){
+        glColor4f(gray,gray,gray,a);
+    }
+
     public static void rect(float x, float y, float width, float height) {
         x = scaleXCord(x);
         y = scaleYCord(y);
         width = scaleWCord(width);
         height = scaleHCord(height);
-
-        glColor3f(0,1,1);
 
         glBegin(GL_QUADS);
 
@@ -31,8 +42,6 @@ public class CoreRendering {
         y2 = scaleYCord(y2);
         x3 = scaleXCord(x3);
         y3 = scaleYCord(y3);
-
-        glColor3f(0,1,1);
 
         glBegin(GL_TRIANGLES);
 

@@ -7,8 +7,8 @@ import static org.lwjgl.opengl.GL11C.GL_QUADS;
 
 public class CoreRendering {
 
-    public static void drawQuad(int x, int y, float width, float height) {
-        GL11.glColor3f(0, 255, 255);
+    public static void drawQuad(float x, float y, float width, float height) {
+        glColor3f(0,1,1);
 
         glBegin(GL_QUADS);
 
@@ -18,6 +18,5 @@ public class CoreRendering {
         glVertex2f(-x, -height);
 
         glEnd();
-        //glLoadIdentity();
     }
 }

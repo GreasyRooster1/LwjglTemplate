@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52a7a84-10e1-402c-8f2f-953ef7f21d55" name="Changes" comment="made window class work">
+    <list default="true" id="f52a7a84-10e1-402c-8f2f-953ef7f21d55" name="Changes" comment="render helper">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Window/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Window/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Window/CoreRendering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Window/CoreRendering.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,7 +29,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2fiPQ1hZjiPsD6N2VkayKjIOCLO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -75,7 +85,7 @@
       <updated>1714280906697</updated>
       <workItem from="1714280907852" duration="808000" />
       <workItem from="1714317787959" duration="1528000" />
-      <workItem from="1714319751845" duration="421000" />
+      <workItem from="1714319751845" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="got simple window working">
       <option name="closed" value="true" />
@@ -101,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714319855291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="render helper">
+      <option name="closed" value="true" />
+      <created>1714320534152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714320534152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +129,7 @@
     <MESSAGE value="got simple window working" />
     <MESSAGE value="refactor and add window" />
     <MESSAGE value="made window class work" />
-    <option name="LAST_COMMIT_MESSAGE" value="made window class work" />
+    <MESSAGE value="render helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="render helper" />
   </component>
 </project>

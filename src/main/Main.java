@@ -1,5 +1,6 @@
 package main;
 
+import main.Window.CoreRendering;
 import main.Window.Window;
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
@@ -7,6 +8,7 @@ import org.lwjgl.system.MemoryStack;
 
 import java.nio.*;
 
+import static main.Window.CoreRendering.drawQuad;
 import static org.lwjgl.glfw.Callbacks.*;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
@@ -18,16 +20,8 @@ public class Main {
 
     public static void update() {
         glClearColor(0.0f, 1.0f, 0.0f, 0.0f);
-        GL11.glColor3f(0f, 1f, 1f);
 
-        glBegin(GL_QUADS);
-
-        glVertex2f(10, 10);
-        glVertex2f(100, 10);
-        glVertex2f(100, 100);
-        glVertex2f(10, 100);
-
-        glEnd();
+        drawQuad(.10f,.10f,.50f,.50f);
     }
 
     public static void main(String[] args) {

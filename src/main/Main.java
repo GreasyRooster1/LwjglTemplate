@@ -3,12 +3,14 @@ package main;
 import main.Core.Window;
 
 import static main.Core.CoreRendering.*;
+import static main.Core.CoreShaders.loadShader;
 
 public class Main {
 
 
     public static void update() {
         fill(1,0,0);
+        loadShader();
 
         rect(10,10,100,100);
         triangle(110,110,320,200,0,140);

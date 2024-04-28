@@ -1,7 +1,7 @@
-import org.lwjgl.*;
+package main;
+
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
-import org.lwjgl.system.*;
 import org.lwjgl.system.MemoryStack;
 
 import java.nio.*;

@@ -18,6 +18,9 @@ public class CoreRendering {
     public static void fill(float gray,float a){
         glColor4f(gray,gray,gray,a);
     }
+    public static void background(float r,float g,float b){
+        glClearColor(r,g,b,1);
+    }
 
     public static void rect(float x, float y, float width, float height) {
         x = scaleXCord(x);
